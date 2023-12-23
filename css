@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contoh CSS dalam HTML</title>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      color: blue;
+      text-align: center;
+    }
+
+    p {
+      color: green;
+    }
+
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contoh Penggunaan CSS dalam HTML</h1>
+
+  <p>Nama saya fadillah iqbal dengan warna teks hijau.</p>
+
+  <p class="highlight">Tanggal lahir saya 21 Agustus 1999 yang memiliki latar belakang kuning.</p>
+
+  <p>Ini adalah biodata lainnya.</p>
+</body>
+</html>
