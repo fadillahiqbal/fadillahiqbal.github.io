@@ -1,0 +1,25 @@
+<section id="dialogbox">
+        <center>
+            <h2>INI DIALOG BOX SAYA FADILLAH IQBAL DALAM HTML</h2>
+         </center>
+         <button onclick="showDialog()">BUka Dialog</button>
+         
+
+         <dialog id="myDialog">
+            <p>Hallo, Saya Fadillah Iqbal.</p>
+            <button onclick="closeDialog()">Tutup</button>
+          </dialog>
+        
+          <script>
+            function showDialog() {
+              var dialog = document.getElementById('myDialog');
+              dialog.showModal(); // Menampilkan dialog box
+            }
+        
+            function closeDialog() {
+              var dialog = document.getElementById('myDialog');
+              dialog.close(); // Menutup dialog box
+            }
+          </script>
+        </body>
+        </html>
